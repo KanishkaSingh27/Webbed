@@ -14,7 +14,7 @@ body{
 
   }
   
-  .topnav a {
+  .left {
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -22,6 +22,7 @@ body{
     text-decoration: none;
     font-size: 31px;
     margin-top: 20px;
+    position: relative;
   }
 
   
@@ -33,10 +34,6 @@ body{
 
   a:hover{
     color:white;
-  }
-  a.left
-  {
-      position: relative;
   }
   
   a.left:before {
